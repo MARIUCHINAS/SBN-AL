@@ -10,5 +10,5 @@ If the value of the first shaft is "abc" and the value of the second shaft is "c
 Any "a" will be replaced by "c" any "b" will be replaced by "h" any "c" will be replaced by "b" and so on.
 
 ## Is this serious?
-No this is just a showcase this encryption algorythm is very easy to crack it takes about 0.02 seconds to crack it.
+No this is just a showcase this encryption algorythm it is very easy to crack it takes about 0.02 seconds to crack it.
 The reason for it being so easy to crack is because i havent implemented the letter part of the encryption.
