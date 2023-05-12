@@ -12,3 +12,14 @@ Any "a" will be replaced by "c" any "b" will be replaced by "h" any "c" will be 
 ## Is this serious?
 No this is just a showcase this encryption algorythm it is very easy to crack it takes about 0.02 seconds to crack it.
 The reason for it being so easy to crack is because i havent implemented the letter part of the encryption.
+
+## How do i use this?
+Its pretty simple you can grab the source code and use it for yourself.
+I do not suggest you to use this until the letter part of the algorythm is created.
+And even when the letter part of the algorythm is created it will still be easy to crack.
+If you do use this you have to follow the license in this case Apache-2.0.
+
+## The license
+This project goes under the Apache-2.0 license.
+What this basicly means is you are free to use this project for yourself.
+But you have to make it clear that you are using this project.
