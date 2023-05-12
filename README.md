@@ -1,5 +1,5 @@
 # SBN-AL
-SBN-AL - Sort By Number | And letter
+SBN-~~AL~~ - Sort By Number | And letter
 
 ## What is this?
 This is a encryption algorythm that shifts the number value by the selected value.
