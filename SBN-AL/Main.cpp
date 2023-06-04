@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <chrono>
 
 std::string encrypt(std::string input, int shifter) {
     std::string output = input;
@@ -21,6 +22,20 @@ std::string decrypt(std::string input, int shifter) {
         }
     }
     return output;
+}
+
+void bruteForceDecrypt(const std::string& encrypted, const std::string& input) {
+    std::string decrypted;
+    auto start = std::chrono::steady_clock::now();
+    for (int i = 0; i <= 255; i++) {
+        decrypted = decrypt(encrypted, i);
+        if (decrypted == input) {
+            auto end = std::chrono::steady_clock::now();
+            std::chrono::duration<double> elapsed_seconds = end - start;
+            std::cout << "Message " << decrypted << " cracked in " << elapsed_seconds.count() << " seconds." << std::endl;
+            break;
+        }
+    }
 }
 
 int main() {
@@ -58,4 +73,8 @@ int main() {
     std::cout << "Encrypted: " << encrypted << std::endl;
 
     std::cout << "Decrypted: " << decrypted << std::endl;
+
+    bruteForceDecrypt(encrypted, input);
+
+    std::cin.get();
 }
