@@ -21,5 +21,3 @@ If you do use this you have to follow the license in this case Apache-2.0.
 
 ## The license
 This project goes under the Apache-2.0 license.
-What this basicly means is you are free to use this project for yourself.
-But you have to make it clear that you are using this project.
